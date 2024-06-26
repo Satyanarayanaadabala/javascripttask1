@@ -4,7 +4,7 @@ x=[12,67,10,98,69];
 y=x.length;
 document.write(x+"<br>");
 document.write("Total items:"+y+"<br>");
-document.write("Middle value:"+x[2]+"<br>");
+document.write("Middle value:"+x[parseInt(y/2)]+"<br>");
 document.write("Item 2nd position:"+x[1]);
 document.write("<br><br>");
 
@@ -32,5 +32,5 @@ if(percentage>75)
     q=parseInt(z/10);
     r=z%10;
     sum=y+q+r;
-    document.write("<br>");
+    document.write("<br><br>");
     document.write("Sum of three digits number:"+sum +"<br>");
